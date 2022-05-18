@@ -171,9 +171,10 @@ body
     -o-transition: 200ms;
     transition: 200ms;
     z-index: 9999999;
-    left: 30px;
+    left: 20px;
     bottom: 30px;
-    padding: 24px;
+    height: 50px;
+    width: 50px;
     outline: none;
     display: none;
     cursor: pointer;
@@ -185,8 +186,8 @@ body
     background-color: #ffffff;
     background-repeat: no-repeat;
     -webkit-animation: arrow-animation 1s;
-            animation: arrow-animation 1s;
-    background-position: 12px 12px;
+    animation: arrow-animation 1s;
+    background-position: center;
     box-shadow: 6px 5px 20px 0px #000000;
     -webkit-box-shadow: 6px 5px 20px 0px #000000;
     background-image: url(img/web-stuff/arrow-up.png);
@@ -197,14 +198,13 @@ body
 #top-button:focus
 
 {
-    padding: 24px;
+    outline: none;
     -webkit-transition: 0.5s;
     -o-transition: 0.5s;
     transition: 0.5s;
-    background-size: 25px;
     border: 2px solid white;
     background-color: var(--color-1);
-    background-position: 12px 12px;
+    background-position: center;
     background-image: url(img/web-stuff/arrow-up-white.png);
 }
 
