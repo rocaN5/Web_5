@@ -358,8 +358,19 @@
 	}
 }
 
-@media screen and (max-width: 500px)
+@media screen and (max-device-width: 500px)
 {
+	.header__small__menu
+	{
+		height: 170px;
+	}
+
+	.header__small__menu a.small__option
+	{
+		width: 150px;
+		background-size: 60%;
+	}
+
 	.slide__down_image>h1
 	{
 	    font-size: 1.8em;
