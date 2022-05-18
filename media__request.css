@@ -392,12 +392,14 @@
     	        transform: scale(0.4);
 	}
 
-	#top-button
+	#top-button,
+	#top-button:hover
 	{
 		bottom: 200px;
 		height: 90px;
 		width: 90px;
 		background-size: 48px;
+		background-position: center;
 	}
 }
 
