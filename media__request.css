@@ -134,6 +134,14 @@
 		display: -ms-flexbox;
 		display: flex;
 	}
+	
+	#top-button
+	{
+		bottom: 90px;
+		height: 70px;
+		width: 70px;
+		background-size: 38px;
+	}
 
 }
 
@@ -382,6 +390,14 @@
     	-webkit-transform: scale(0.4);
     	    -ms-transform: scale(0.4);
     	        transform: scale(0.4);
+	}
+
+	#top-button
+	{
+		bottom: 200px;
+		height: 90px;
+		width: 90px;
+		background-size: 48px;
 	}
 }
 
